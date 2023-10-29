@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8E5F5F672AEEC75800F3CFD0 /* SUpotify_MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F5F662AEEC75800F3CFD0 /* SUpotify_MobileApp.swift */; };
-		8E5F5F692AEEC75800F3CFD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F5F682AEEC75800F3CFD0 /* ContentView.swift */; };
+		8E5F5F692AEEC75800F3CFD0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F5F682AEEC75800F3CFD0 /* LoginView.swift */; };
 		8E5F5F6B2AEEC75A00F3CFD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F5F6A2AEEC75A00F3CFD0 /* Assets.xcassets */; };
 		8E5F5F6E2AEEC75A00F3CFD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F5F6D2AEEC75A00F3CFD0 /* Preview Assets.xcassets */; };
 		8E5F5F782AEEC75A00F3CFD0 /* SUpotify_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F5F772AEEC75A00F3CFD0 /* SUpotify_MobileTests.swift */; };
 		8E5F5F822AEEC75A00F3CFD0 /* SUpotify_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F5F812AEEC75A00F3CFD0 /* SUpotify_MobileUITests.swift */; };
 		8E5F5F842AEEC75A00F3CFD0 /* SUpotify_MobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F5F832AEEC75A00F3CFD0 /* SUpotify_MobileUITestsLaunchTests.swift */; };
+		8E5F5F912AEECF7C00F3CFD0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F5F902AEECF7C00F3CFD0 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		8E5F5F632AEEC75800F3CFD0 /* SUpotify_Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUpotify_Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5F5F662AEEC75800F3CFD0 /* SUpotify_MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUpotify_MobileApp.swift; sourceTree = "<group>"; };
-		8E5F5F682AEEC75800F3CFD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E5F5F682AEEC75800F3CFD0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8E5F5F6A2AEEC75A00F3CFD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E5F5F6D2AEEC75A00F3CFD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E5F5F732AEEC75A00F3CFD0 /* SUpotify_MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUpotify_MobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		8E5F5F7D2AEEC75A00F3CFD0 /* SUpotify_MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUpotify_MobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5F5F812AEEC75A00F3CFD0 /* SUpotify_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUpotify_MobileUITests.swift; sourceTree = "<group>"; };
 		8E5F5F832AEEC75A00F3CFD0 /* SUpotify_MobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUpotify_MobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E5F5F902AEECF7C00F3CFD0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				8E5F5F662AEEC75800F3CFD0 /* SUpotify_MobileApp.swift */,
-				8E5F5F682AEEC75800F3CFD0 /* ContentView.swift */,
+				8E5F5F682AEEC75800F3CFD0 /* LoginView.swift */,
+				8E5F5F902AEECF7C00F3CFD0 /* SignUpView.swift */,
 				8E5F5F6A2AEEC75A00F3CFD0 /* Assets.xcassets */,
 				8E5F5F6C2AEEC75A00F3CFD0 /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E5F5F692AEEC75800F3CFD0 /* ContentView.swift in Sources */,
+				8E5F5F692AEEC75800F3CFD0 /* LoginView.swift in Sources */,
+				8E5F5F912AEECF7C00F3CFD0 /* SignUpView.swift in Sources */,
 				8E5F5F672AEEC75800F3CFD0 /* SUpotify_MobileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
